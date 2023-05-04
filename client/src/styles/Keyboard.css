@@ -1,0 +1,18 @@
+#base-block {
+    display: flex;
+    flex-direction: column;
+    min-width: max-content;
+    font-size: large;
+    text-align: justify;
+}
+
+#esc-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.key-row {
+    display: flex;
+    justify-content: space-between;
+}
+
