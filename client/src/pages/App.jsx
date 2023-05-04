@@ -1,4 +1,7 @@
+import Keyboard from '../components/Keyboard/Keyboard'
+
 import { useState } from 'react'
+
 import '../styles/App.css'
 
 function App() {
@@ -7,6 +10,9 @@ function App() {
   return (
     <>
       <h1>KMO</h1>
+      <section className="card">
+        <Keyboard />
+      </section>
       <section className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
