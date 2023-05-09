@@ -1,15 +1,83 @@
-import BaseBlock from './BoardSections/BaseBlock/BaseBlock'
-import NavBlock from './BoardSections/NavBlock/NavBlock'
-import NumPad from './BoardSections/NumPad/NumPad'
+// import BaseBlock from './BoardSections/BaseBlock/BaseBlock'
+// import NavBlock from './BoardSections/NavBlock/NavBlock'
+// import NumPad from './BoardSections/NumPad/NumPad'
 
 import '../../styles/Keyboard.css'
 
 export default function Keyboard() {
     return (
         <div id="keyboard">
-            <BaseBlock/>
-            <NavBlock/>
-            <NumPad/>
+            <div className="keyboard-keys">
+                <div>
+                    <button className="keyboard-key">`~</button>
+                    <button className="keyboard-key">1</button>
+                    <button className="keyboard-key">2</button>
+                    <button className="keyboard-key">3</button>
+                    <button className="keyboard-key">4</button>
+                    <button className="keyboard-key">5</button>
+                    <button className="keyboard-key">6</button>
+                    <button className="keyboard-key">7</button>
+                    <button className="keyboard-key">8</button>
+                    <button className="keyboard-key">9</button>
+                    <button className="keyboard-key">0</button>
+                    <button className="keyboard-key">-</button>
+                    <button className="keyboard-key">=</button>
+                    <button className="keyboard-key key-extra-wide">backspace</button>
+                </div>
+                <div>
+                    <button className="keyboard-key key-medium">tab</button>
+                    <button className="keyboard-key">q</button>
+                    <button className="keyboard-key">w</button>
+                    <button className="keyboard-key">e</button>
+                    <button className="keyboard-key">r</button>
+                    <button className="keyboard-key">t</button>
+                    <button className="keyboard-key">y</button>
+                    <button className="keyboard-key">u</button>
+                    <button className="keyboard-key">i</button>
+                    <button className="keyboard-key">o</button>
+                    <button className="keyboard-key">p</button>
+                    <button className="keyboard-key">[</button>
+                    <button className="keyboard-key">]</button>
+                    <button className="keyboard-key key-medium">\</button>
+                </div>
+                <div>
+                    <button className="keyboard-key key-wide">caps</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key key-wide">enter</button>
+                </div>
+                <div>
+                    <button className="keyboard-key key-extra-wide">shift</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key key-extra-wide">shift</button>
+                </div>
+                <button className="keyboard-key">ctrl</button>
+                <button className="keyboard-key">win</button>
+                <button className="keyboard-key">alt</button>
+                <button className="keyboard-key key-spacebar">space</button>
+                <button className="keyboard-key">alt</button>
+                <button className="keyboard-key">win</button>
+                <button className="keyboard-key">page</button>
+                <button className="keyboard-key">ctrl</button>
+            </div>
         </div>
 
     )
