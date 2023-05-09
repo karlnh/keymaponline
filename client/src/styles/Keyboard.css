@@ -1,18 +1,34 @@
-#base-block {
-    display: flex;
-    flex-direction: column;
-    min-width: max-content;
-    font-size: large;
-    text-align: justify;
+.keyboard-keys {
+    text-align: center;
+    width: 745px;
 }
 
-#esc-row {
-    display: flex;
-    justify-content: space-between;
+.keyboard-key {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    height: 40px;
+    min-width:40px;
+    margin: 3px;
+    padding: 0;
+
+    border: 1px solid black;
+    border-radius: 4px;
 }
 
-.key-row {
-    display: flex;
-    justify-content: space-between;
+.key-medium {
+    width: 11%;
 }
 
+.key-wide {
+    width: 14%;
+}
+
+.key-extra-wide {
+    width: 17%;
+}
+
+.key-spacebar {
+    width: 53.5%;
+}
