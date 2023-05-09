@@ -1,10 +1,10 @@
-// import BaseBlock from './BoardSections/BaseBlock/BaseBlock'
-// import NavBlock from './BoardSections/NavBlock/NavBlock'
-// import NumPad from './BoardSections/NumPad/NumPad'
+import { useState } from 'react'
 
 import '../../styles/Keyboard.css'
 
 export default function Keyboard() {
+    // const [btnActive, setBtnActive] = useState('inactive');
+
     return (
         <div id="keyboard">
             <div className="keyboard-keys">
