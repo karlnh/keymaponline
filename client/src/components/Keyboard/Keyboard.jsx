@@ -43,30 +43,30 @@ export default function Keyboard() {
                 <div>
                     <button className="keyboard-key key-wide">caps</button>
                     <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">s</button>
+                    <button className="keyboard-key">d</button>
+                    <button className="keyboard-key">f</button>
+                    <button className="keyboard-key">g</button>
+                    <button className="keyboard-key">h</button>
+                    <button className="keyboard-key">j</button>
+                    <button className="keyboard-key">k</button>
+                    <button className="keyboard-key">l</button>
+                    <button className="keyboard-key">;</button>
+                    <button className="keyboard-key">'</button>
                     <button className="keyboard-key key-wide">enter</button>
                 </div>
                 <div>
                     <button className="keyboard-key key-extra-wide">shift</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
-                    <button className="keyboard-key">a</button>
+                    <button className="keyboard-key">z</button>
+                    <button className="keyboard-key">x</button>
+                    <button className="keyboard-key">c</button>
+                    <button className="keyboard-key">v</button>
+                    <button className="keyboard-key">b</button>
+                    <button className="keyboard-key">n</button>
+                    <button className="keyboard-key">m</button>
+                    <button className="keyboard-key">,</button>
+                    <button className="keyboard-key">.</button>
+                    <button className="keyboard-key">/</button>
                     <button className="keyboard-key key-extra-wide">shift</button>
                 </div>
                 <button className="keyboard-key">ctrl</button>
